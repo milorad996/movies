@@ -5,6 +5,10 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Movie;
 use App\Http\Requests\CreateMovieRequest;
+use App\Http\Requests\CreateCommentRequest;
+use App\Http\Models\Comment;
+use Illuminate\Support\Facades\DB;
+
 
 class MoviesController extends Controller
 {
